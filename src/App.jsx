@@ -1,6 +1,7 @@
 import './App.css'
 import BarraDePesquisa from './componentes/BarraDePesquisa'
 import Filtro from './componentes/Filtro'
+import Ordenacao from './componentes/Ordenacao'
 import Sidebar from './componentes/Sidebar'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <div>
         <BarraDePesquisa />
         <Filtro />
+        <Ordenacao />
       </div>
     </div>
   )
